@@ -72,14 +72,19 @@ void ReverseIt(void){
 }
 
 void ReverseItAgain(void){
-	FILE *reverseAg = fopen("file2.txt", "r");
+	FILE *reverseAg = fopen("Lab_02/file2.txt", "r");
+	char buff[255];
+	fgets(buff, 255, reverseAg);
+	printf("%s\n", buff);
+	fgets(buff, 255, reverseAg);
+	printf("%s\n", buff);
 	/*char c;
 	while((c=fgetc(reverseAg)) != EOF){
 		printf("%c", c);
-	}*/
+	}
 	float num0, num1, num2, num3, num4, rev0, rev1, rev2, rev3, rev4;
 	fscanf(reverseAg,"%f%f%f%f%f%f%f%f%f%f",&num0,&num1,&num2,&num3,&num4,&rev0,&rev1,&rev2,&rev3,&rev4);
-	printf("%f%f%f%f%f%f%f%f%f%f\n", num0, num1, num2, num3, num4, rev0, rev1, rev2, rev3, rev4);
+	printf("%f%f%f%f%f%f%f%f%f%f\n", num0, num1, num2, num3, num4, rev0, rev1, rev2, rev3, rev4);*/
 	fclose(reverseAg);
 }
 
