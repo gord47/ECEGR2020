@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Session Name="C:\Users\gauma\ECEGR2020\ECEGR2020.workspace">
-  <int Value="2" Name="m_selectedTab"/>
+  <int Value="4" Name="m_selectedTab"/>
   <wxString Value="C:\Users\gauma\ECEGR2020\ECEGR2020.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
@@ -12,15 +12,29 @@
     </TabInfo>
     <TabInfo>
       <wxString Value="C:\Users\gauma\ECEGR2020\Lab_1\main.c" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="5" Name="CurrentLine"/>
+      <int Value="50" Name="FirstVisibleLine"/>
+      <int Value="143" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
       <wxString Value="C:\Users\gauma\ECEGR2020\Lab_2\main.c" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="29" Name="CurrentLine"/>
+      <int Value="103" Name="FirstVisibleLine"/>
+      <int Value="96" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\gauma\ECEGR2020\Lab_3\main.c" Name="FileName"/>
+      <int Value="38" Name="FirstVisibleLine"/>
+      <int Value="52" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\gauma\ECEGR2020\Lab_3\main2.c" Name="FileName"/>
+      <int Value="14" Name="FirstVisibleLine"/>
+      <int Value="22" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
