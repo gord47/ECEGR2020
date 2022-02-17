@@ -1,0 +1,9 @@
+Number of students is 2
+1
+Gautam
+M
+3.300000
+2
+Bob
+Sam
+2.200000
