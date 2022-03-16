@@ -1,0 +1,9 @@
+Num students: 2
+Student ID: 3
+First name: Ria
+Last name: Mahesh
+GPA: 3.6
+Student ID: 1
+First name: Gautam
+Last name: M
+GPA: 3.5
