@@ -1,0 +1,6 @@
+Number of people: 1
+Student
+ID: 1
+First Name: Gautam
+Last Name: Mahesh
+GPA: 3.3
