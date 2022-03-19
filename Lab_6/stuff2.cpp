@@ -165,7 +165,7 @@ void readStudFile(){
 		for(int i = 0; i <studTot; i++){
 			int readID = 0;
 			string readFirst = "";
-			string readLast = "";
+			string readLast = NULL;
 			float readGPA = 0.0;
 			readerRec>>temp;
 			readerRec>>temp;

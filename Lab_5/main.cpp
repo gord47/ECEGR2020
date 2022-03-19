@@ -66,14 +66,14 @@ public:
 		return this->firstName;
 	}
 	void setFirst(char* first){
-		this->firstName = (char*) malloc(sizeof(strlen(first)+1));
+		this->firstName = (char*) realloc(this->firstName, sizeof(strlen(first)+1));
 		strcpy(this->firstName, first);
 	}
 	char* getLast(void){
 		return this->lastName;
 	}
 	void setLast(char* last){
-		this->lastName =(char*) malloc(sizeof(strlen(last)+1));
+		this->lastName =(char*) realloc(this->firstName, sizeof(strlen(last)+1));
 		strcpy(this->lastName, last);
 	}
 	
@@ -196,13 +196,17 @@ int main(int argc, char **argv)
 	Professor* ohYeah = new Professor(3, (char*)"Thomas", (char*)"Engine", 20000, true, Engineering);
 	//copy constructor
 	Student* boyT = new Student(*boy);
+	boy->setFirst((char*)"Brat");
+	cout<<"New first: "<<boy->getFirst()<<endl;
+	boy->setFirst("Greg");
+	cout<<"New first: "<<boy->getFirst()<<endl;
 	//basic calls to getter and setter methods
 	cout<<"Student last name: "<<boy->getLast()<<endl;
 	cout<<"Other stud last: "<<boyT->getLast()<<endl;
 	cout<<boy->getFirst()<<"'s GPA: "<<boy->getGPA()<<endl;
 	cout<<ohYeah->getFirst()<<"'s salary is: "<<ohYeah->getSal()<<endl;
 	boy->setGPA(2.2);
-	cout<<"New GPA for "<<boy->getFirst()<<": "<<boy->getGPA()<<endl;
+	cout<<"New GPA: "<<boy->getGPA()<<endl;
 	delete(boy);
 	delete(ohYeah);
 	delete(boyT);
